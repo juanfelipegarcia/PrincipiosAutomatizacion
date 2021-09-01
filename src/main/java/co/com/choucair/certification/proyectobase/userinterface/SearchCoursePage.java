@@ -12,8 +12,8 @@ public class SearchCoursePage extends PageObject {
             .located(By.id("coursesearchbox"));
     public static final Target BUTTON_GO = Target.the("Da click para buscar el curso")
             .located(By.xpath("//*[@id=\"coursesearch\"]/fieldset/button"));
-    //public static final Target COPY = Target.the( "copy inicial del elemento encontrado" )
-      //      .located(By.xpath("//*[@id=\"yui_3_17_2_1_1630472845520_290\"]/div[3]/div/div/a[3]/strong"));
     public static final Target SELECT_COURSE = Target.the("Da click para ir al curso encontrado")
             .located(By.xpath("//a[@href='https://operacion.choucairtesting.com/academy/course/view.php?id=489']"));
+    public static final Target NAME_COURSE = Target.the("Extraer el nombre del cuerso")
+            .located(By.xpath("//*[@id=\"region-main\"]/div/div[1]/div/div[1]/h3/a"));
 }

@@ -23,7 +23,6 @@ public class Search implements Task {
         actor.attemptsTo(Click.on(SearchCoursePage.BUTTON_UC),
                 Enter.theValue(course).into(SearchCoursePage.INPUT_COURSE),
                 Click.on(SearchCoursePage.BUTTON_GO),
-
                 Click.on(SearchCoursePage.SELECT_COURSE)
 
         );

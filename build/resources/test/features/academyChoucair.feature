@@ -7,4 +7,4 @@
     Scenario: Search for automation course
       Given than dwayne  wants to learn automation a the Academy Choucair
       When he search for the course Metodología Bancolombia on the choucair Academy plataform
-      Then he finds the course calles resources Recursos Automatizacion Bancolombia
+      Then he finds the course calles resources Metodología Bancolombia
